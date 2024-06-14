@@ -1,6 +1,5 @@
 {
   "name": "quasar-app-extension-test-ext-monorepo",
-  "private": true,
   "author": "Dimitris Tsiantaris <dtsiantaris@lancom.gr>",
   "type": "module",
   "workspaces": [
