@@ -5,10 +5,6 @@
   "author": "Dimitris Tsiantaris <dtsiantaris@lancom.gr>",
   "license": "MIT",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "bugs": "",
   "homepage": "",
   "main": "./dist/runtime/index.js",
@@ -27,7 +23,8 @@
   },
   "scripts": {
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
-    "build": "mkdist ./ --ext=js --declaration --pattern='**/!(shims-vue.d.ts)'"
+    "build": "mkdist ./ --ext=js --declaration --pattern='**/!(shims-vue.d.ts)'",
+    "publish": "pnpm publish"
   },
   "devDependencies": {
     "@quasar/app-vite": "^2.0.0-beta.5",
@@ -53,5 +50,12 @@
   },
   "dependencies": {
     "dayjs": "^1.11.11"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dtsiantaris/testExt"
   }
 }
