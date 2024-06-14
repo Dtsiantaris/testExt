@@ -1,5 +1,5 @@
 {
-  "name": "@dtsiantaris/quasar-app-extension-test-ext",
+  "name": "quasar-app-extension-test-ext",
   "version": "0.0.1",
   "description": "A Quasar Project",
   "author": "Dimitris Tsiantaris <dtsiantaris@lancom.gr>",
